@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    height: 60px;
+}
+
+.logo>img{
+    height: 35px;
+    padding-left: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 35px;
+    margin: 0;
+    gap: 30px;
+    list-style: none;
+    font-size: large;
+}
+
+.navicons{
+    font-size: 20px;
+    color: black;
+    padding-right: 50px;
+    gap: 35px;
+    display: flex;
+}
+
+.navicons>a{
+    text-decoration: none;
+    color: black;
+}
+
+.togglebar{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navlist>ul{
+        display: none;
+    }
+    .navicons{
+        display: none;
+    }
+    .togglebar{
+        display: block;
+        font-size: 30px;
+        padding-right: 50px;
+        color: black;
+    }
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.card>img{
+    height: 350px;
+}
+
+.card-body>h5{
+    font-size: 23x;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-body>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.feature>h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.featurecard>h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
