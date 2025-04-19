@@ -175,6 +175,7 @@
 @media (max-width: 768px) {
     .vision{
         height: 80vh;
+        align-items: bottom;
     }
     .visionimg>img{
         height: 40px;
